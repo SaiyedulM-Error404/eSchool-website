@@ -1,9 +1,20 @@
+*{
+    font-family: 'Poppins', sans-serif,"arial";
+}
+
 .submit{
     text-align: center;
-    padding: 2px 12px;
+    padding: 2px 18px;
     border: none;
     border-radius: 20px;
     outline: none;
+    background-color: rgb(44, 177, 44);
+    color: white;
+    font-size: large;
+}
+#get-started{
+    float: left;
+    margin-top: 20px;
 }
 #header{
     margin-top: 11px;
@@ -21,17 +32,44 @@ a:hover{
     cursor: pointer;
 }
 .container{
-    float: left;
+    width: 100%;
     margin-top: 15px;
+    
 }
 .content{
-    border: 1px solid red;
     margin-top: 80px;
+}
+.illus{
+    width: 100%; 
 }
 .img{
     width: 100%;
 }
 .orange{
-    
-    color: green;
+     color: green;
+}
+.h1{
+    font-weight: 700;
+}
+.top-get{
+    color: dimgrey;
+    letter-spacing: 1pxx;
+}
+.icon-image{
+    width: 30%;
+}
+.image{
+    text-align: center;
+}
+.h5{
+    margin-top: 15px;
+}
+.h6{
+    color: dimgrey;
+}
+.online{
+    text-align: center;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+    letter-spacing: 2px;
 }
